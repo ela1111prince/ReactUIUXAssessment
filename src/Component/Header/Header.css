@@ -1,0 +1,44 @@
+.Header{
+    background: transparent linear-gradient(90deg, #5F1EBE 0%, #2874F0 67%, #0F5FDC 100%) 0% 0% no-repeat;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 1.8%;
+    color:white;
+    justify-content: space-between;
+}
+
+.Header .material-symbols-outlined{
+    font-size: 32px;
+    cursor: pointer !important;
+    color: white;
+}
+.Header h2{
+    margin-left: 1%;
+}
+
+.HeaderLeftContent{
+    display: flex;
+}
+
+.UserDetails{
+    display: flex;
+    align-items: center;
+}
+
+.UserDetails span{
+    color: white;
+    font-size: x-large;
+}
+
+.UserDetails button{
+    display: flex;
+}
+
+.UserName{
+    margin-right: 5%;
+    border-right: 2px white solid;
+    padding: 4%;
+    text-wrap: nowrap;
+}
